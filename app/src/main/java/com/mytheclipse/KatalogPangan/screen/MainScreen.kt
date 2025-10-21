@@ -17,7 +17,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.mytheclipse.KatalogPangan.model.Food
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -120,14 +119,6 @@ fun FoodListItem(
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.primary,
                     fontWeight = FontWeight.Medium
-                )
-                Spacer(modifier = Modifier.height(6.dp))
-                // Debug: show numeric resource id to verify images are set
-                Text(
-                    text = "resId: ${'$'}{food.imageRes}",
-                    style = MaterialTheme.typography.labelSmall,
-                    fontSize = 10.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
         }
