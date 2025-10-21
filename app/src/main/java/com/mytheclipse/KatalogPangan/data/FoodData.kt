@@ -12,7 +12,13 @@ object FoodData {
             description = "Rendang adalah masakan daging yang menggunakan campuran dari berbagai bumbu dan rempah-rempah. Masakan ini dihasilkan dari proses memasak yang dipanaskan berulang-ulang dengan santan kelapa. Proses memasaknya memakan waktu berjam-jam (biasanya sekitar empat jam) hingga kering dan berwarna hitam pekat. Rendang berasal dari Sumatera Barat dan merupakan hidangan tradisional dari suku Minangkabau. Rendang telah dinobatkan sebagai hidangan paling enak di dunia versi CNN International.",
             origin = "Sumatera Barat",
             ingredients = "Daging sapi, santan kelapa, cabai merah, bawang merah, bawang putih, jahe, kunyit, lengkuas, serai, daun jeruk, daun kunyit",
-            imageRes = R.drawable.rendang
+            imageRes = R.drawable.rendang,
+            calories = "450 kkal per porsi",
+            nutrition = "Protein: 28g, Lemak: 35g, Karbohidrat: 8g, Serat: 2g",
+            cookingTime = "4-5 jam",
+            difficulty = "Sulit",
+            servings = "6-8 porsi",
+            tips = "Masak dengan api kecil dan aduk sesekali agar bumbu tidak gosong. Gunakan daging sapi has dalam untuk hasil yang lebih empuk."
         ),
         Food(
             id = 2,
@@ -21,7 +27,13 @@ object FoodData {
             description = "Nasi goreng adalah makanan berupa nasi yang digoreng dan dicampur dalam minyak goreng, margarin, atau mentega. Bumbu-bumbu yang digunakan biasanya kecap manis, bawang merah, bawang putih, asam jawa, cabai, dan krupuk. Nasi goreng berbeda dengan nasi yang ditumis karena teknik memasak yang berbeda dan penggunaan kecap manis yang khas. Nasi goreng Indonesia telah diakui oleh dunia sebagai salah satu makanan paling enak dan terkenal di dunia.",
             origin = "Indonesia",
             ingredients = "Nasi putih, kecap manis, bawang merah, bawang putih, cabai, telur, ayam/udang, krupuk",
-            imageRes = R.drawable.nasigoreng
+            imageRes = R.drawable.nasigoreng,
+            calories = "350 kkal per porsi",
+            nutrition = "Protein: 15g, Lemak: 12g, Karbohidrat: 48g, Serat: 3g",
+            cookingTime = "20-30 menit",
+            difficulty = "Mudah",
+            servings = "2-3 porsi",
+            tips = "Gunakan nasi sisa kemarin yang lebih kering untuk hasil yang tidak lembek. Panaskan wajan dengan api besar untuk menghasilkan tekstur yang pas."
         ),
         Food(
             id = 3,
@@ -30,7 +42,13 @@ object FoodData {
             description = "Sate atau satai adalah makanan yang terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan lidi tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara arang kayu. Sate disajikan dengan berbagai macam bumbu yang bergantung pada variasi resep sate. Sate dapat ditemukan di berbagai daerah di Indonesia dengan ciri khas masing-masing, seperti sate Madura, sate Padang, sate Lilit, dan lain-lain.",
             origin = "Indonesia",
             ingredients = "Daging ayam/kambing/sapi, bumbu kacang, kecap manis, bawang merah, bawang putih, ketumbar, gula merah",
-            imageRes = R.drawable.sate
+            imageRes = R.drawable.sate,
+            calories = "300 kkal per porsi (10 tusuk)",
+            nutrition = "Protein: 25g, Lemak: 18g, Karbohidrat: 12g, Serat: 2g",
+            cookingTime = "30-40 menit",
+            difficulty = "Sedang",
+            servings = "4-5 porsi",
+            tips = "Rendam tusukan sate dalam air agar tidak gosong. Lumuri daging dengan sedikit minyak sebelum dipanggang untuk hasil yang lebih juicy."
         ),
         Food(
             id = 4,
@@ -39,7 +57,13 @@ object FoodData {
             description = "Gado-gado adalah makanan khas Indonesia berupa sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang atau saus dari kacang tanah yang dihaluskan disertai irisan telur dan bawang goreng. Gado-gado dilengkapi dengan kerupuk atau emping goreng. Sedikit air asam jawa dan terasi membuat rasanya semakin sedap dan gurih. Hidangan ini sangat populer dan dapat ditemukan di seluruh Indonesia.",
             origin = "Jakarta",
             ingredients = "Sayuran rebus (kangkung, kol, tauge, kentang, kacang panjang), bumbu kacang, telur rebus, kerupuk, bawang goreng",
-            imageRes = R.drawable.gadogado
+            imageRes = R.drawable.gadogado,
+            calories = "280 kkal per porsi",
+            nutrition = "Protein: 12g, Lemak: 15g, Karbohidrat: 28g, Serat: 8g",
+            cookingTime = "25-35 menit",
+            difficulty = "Mudah",
+            servings = "3-4 porsi",
+            tips = "Rebus sayuran secukupnya agar tidak terlalu lembek. Buat bumbu kacang tidak terlalu kental agar mudah dicampur dengan sayuran."
         ),
         Food(
             id = 5,
@@ -48,7 +72,13 @@ object FoodData {
             description = "Soto ayam adalah makanan khas Indonesia yang berupa sejenis sup ayam dengan kuah yang berwarna kuning. Warna kuning dari kuah soto berasal dari kunyit dan kadang-kadang ditambah dengan santan. Soto ayam biasanya disajikan dengan nasi, tauge, telur rebus, perkedel, dan emping. Setiap daerah memiliki variasi soto dengan ciri khas tersendiri seperti Soto Lamongan, Soto Banjar, Soto Betawi, dan lain-lain.",
             origin = "Indonesia",
             ingredients = "Ayam, kunyit, serai, daun jeruk, bawang merah, bawang putih, jahe, telur rebus, tauge, seledri",
-            imageRes = R.drawable.soto
+            imageRes = R.drawable.soto,
+            calories = "320 kkal per porsi",
+            nutrition = "Protein: 22g, Lemak: 14g, Karbohidrat: 28g, Serat: 3g",
+            cookingTime = "1-1.5 jam",
+            difficulty = "Sedang",
+            servings = "4-6 porsi",
+            tips = "Rebus ayam hingga empuk dan kuahnya gurih. Sajikan dengan nasi hangat dan pelengkap seperti perkedel, emping, dan sambal."
         ),
         Food(
             id = 6,
@@ -57,7 +87,13 @@ object FoodData {
             description = "Gudeg adalah makanan khas Yogyakarta dan Jawa Tengah yang terbuat dari nangka muda yang dimasak dengan santan. Perlu waktu berjam-jam untuk membuat gudeg. Warna cokelat biasanya dihasilkan oleh daun jati yang dimasak bersamaan. Gudeg dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung, telur, tahu, dan sambal goreng krecek. Gudeg memiliki rasa manis dan gurih yang khas.",
             origin = "Yogyakarta",
             ingredients = "Nangka muda, santan kelapa, gula merah, bawang merah, bawang putih, kemiri, ketumbar, daun salam, daun jati",
-            imageRes = R.drawable.gudeg
+            imageRes = R.drawable.gudeg,
+            calories = "380 kkal per porsi",
+            nutrition = "Protein: 8g, Lemak: 20g, Karbohidrat: 45g, Serat: 6g",
+            cookingTime = "5-6 jam",
+            difficulty = "Sulit",
+            servings = "6-8 porsi",
+            tips = "Masak dengan api kecil dan sabar menunggu hingga nangka empuk dan bumbu meresap. Tambahkan daun jati untuk warna cokelat khas gudeg."
         ),
         Food(
             id = 7,
@@ -66,7 +102,13 @@ object FoodData {
             description = "Rawon adalah masakan Indonesia berupa sup daging berkuah hitam dengan campuran bumbu khas yang menggunakan kluwak. Rawon berasal dari Jawa Timur dan sering ditemukan di kota-kota seperti Surabaya dan Malang. Warna hitam yang khas berasal dari kluwak (keluak), buah dari pohon kepayang. Rawon disajikan dengan nasi putih, tauge mentah, telur asin, dan sambal. Kuahnya yang gurih dan sedikit pedas membuat rawon sangat digemari.",
             origin = "Jawa Timur",
             ingredients = "Daging sapi, kluwak, kemiri, bawang merah, bawang putih, jahe, lengkuas, serai, daun jeruk, tauge",
-            imageRes = R.drawable.rawon
+            imageRes = R.drawable.rawon,
+            calories = "400 kkal per porsi",
+            nutrition = "Protein: 26g, Lemak: 22g, Karbohidrat: 28g, Serat: 4g",
+            cookingTime = "2-3 jam",
+            difficulty = "Sedang",
+            servings = "5-6 porsi",
+            tips = "Gunakan kluwak yang sudah bersih dan tidak beracun. Rebus daging hingga empuk dan kuahnya kental dengan bumbu yang meresap."
         ),
         Food(
             id = 8,
@@ -75,7 +117,13 @@ object FoodData {
             description = "Pempek atau empek-empek adalah makanan khas Palembang yang terbuat dari ikan dan sagu. Penyajiannya dilakukan dengan kuah cuka yang disebut cuko (cuka dalam bahasa Palembang). Cuko dibuat dari air yang dididihkan, kemudian ditambah gula merah, udang ebi, cabe rawit tumbuk, bawang putih, dan garam. Ada berbagai jenis pempek seperti pempek kapal selam (berisi telur), pempek lenjer, pempek adaan, dan lain-lain.",
             origin = "Palembang, Sumatera Selatan",
             ingredients = "Ikan tenggiri, sagu/tapioka, telur, bawang putih, gula merah, cuka, cabai rawit, udang ebi",
-            imageRes = R.drawable.pempek
+            imageRes = R.drawable.pempek,
+            calories = "250 kkal per porsi (3 potong)",
+            nutrition = "Protein: 18g, Lemak: 8g, Karbohidrat: 32g, Serat: 1g",
+            cookingTime = "45-60 menit",
+            difficulty = "Sedang",
+            servings = "4-5 porsi",
+            tips = "Gunakan ikan segar untuk hasil yang kenyal dan gurih. Goreng pempek dengan api sedang agar matang sempurna dan tidak gosong."
         ),
         Food(
             id = 9,
@@ -84,7 +132,13 @@ object FoodData {
             description = "Bakso adalah makanan yang terbuat dari daging (biasanya sapi) yang digiling halus kemudian dibentuk bulat-bulat seperti bola pingpong. Bakso umumnya disajikan dalam mangkuk berisi kuah kaldu sapi panas dengan mie, bihun, tauge, tahu, dan terkadang telur. Bakso sangat populer di Indonesia dan dapat ditemukan dari pedagang kaki lima hingga restoran besar. Setiap daerah memiliki variasi bakso dengan ciri khas tersendiri seperti bakso Malang, bakso Solo, bakso urat, dan lain-lain.",
             origin = "Indonesia",
             ingredients = "Daging sapi giling, tepung tapioka, bawang putih, garam, merica, mie/bihun, kaldu sapi",
-            imageRes = R.drawable.bakso
+            imageRes = R.drawable.bakso,
+            calories = "360 kkal per porsi",
+            nutrition = "Protein: 24g, Lemak: 12g, Karbohidrat: 40g, Serat: 2g",
+            cookingTime = "1-1.5 jam",
+            difficulty = "Sedang",
+            servings = "4-5 porsi",
+            tips = "Giling daging hingga halus dan tambahkan es batu saat mengaduk adonan bakso agar lebih kenyal. Rebus dengan air mendidih hingga bakso mengapung."
         ),
         Food(
             id = 10,
@@ -93,7 +147,13 @@ object FoodData {
             description = "Nasi uduk adalah makanan khas Betawi yang terbuat dari beras yang dimasak dengan santan dan rempah-rempah. Nasi uduk biasanya disajikan dengan lauk pauk seperti ayam goreng, telur dadar/balado, tempe orek, bawang goreng, emping, dan sambal kacang. Aromanya yang harum dan rasanya yang gurih membuat nasi uduk menjadi menu sarapan favorit masyarakat Jakarta dan sekitarnya. Nasi uduk sering dijual pada pagi hari oleh pedagang kaki lima.",
             origin = "Jakarta",
             ingredients = "Beras, santan kelapa, serai, daun salam, daun jeruk, jahe, bawang merah, bawang putih",
-            imageRes = R.drawable.nasiuduk
+            imageRes = R.drawable.nasiuduk,
+            calories = "420 kkal per porsi",
+            nutrition = "Protein: 18g, Lemak: 20g, Karbohidrat: 48g, Serat: 3g",
+            cookingTime = "40-50 menit",
+            difficulty = "Mudah",
+            servings = "4-5 porsi",
+            tips = "Jangan terlalu banyak mengaduk nasi saat memasak agar tidak lembek. Tambahkan daun pandan untuk aroma yang lebih harum."
         ),
         Food(
             id = 11,
@@ -102,7 +162,13 @@ object FoodData {
             description = "Ayam betutu adalah makanan khas Bali yang terbuat dari ayam yang dibumbui dengan bumbu khas Bali yang disebut bumbu betutu. Ayam betutu dibuat dengan memasukkan bumbu ke dalam perut ayam, kemudian ayam dibungkus dengan daun pisang dan dipanggang dalam api sekam atau dibakar dalam oven. Proses memasaknya memakan waktu yang cukup lama sehingga bumbu meresap sempurna ke dalam daging ayam. Rasanya pedas, gurih, dan sangat kaya rempah.",
             origin = "Bali",
             ingredients = "Ayam kampung, cabai merah, bawang merah, bawang putih, kunyit, jahe, lengkuas, kencur, terasi, kemiri, serai",
-            imageRes = R.drawable.ayambetutu
+            imageRes = R.drawable.ayambetutu,
+            calories = "480 kkal per porsi",
+            nutrition = "Protein: 32g, Lemak: 30g, Karbohidrat: 18g, Serat: 3g",
+            cookingTime = "3-4 jam",
+            difficulty = "Sulit",
+            servings = "4-6 porsi",
+            tips = "Lumuri ayam dengan bumbu hingga merata dan biarkan meresap minimal 2 jam. Panggang dengan api kecil agar bumbu tidak gosong."
         ),
         Food(
             id = 12,
@@ -111,7 +177,13 @@ object FoodData {
             description = "Pecel lele adalah makanan yang terdiri dari ikan lele yang digoreng kering dan disajikan dengan sambal terasi dan lalapan seperti kemangi, kubis, dan timun. Pecel lele biasanya dimakan dengan nasi hangat dan tempe atau tahu goreng. Sambal yang pedas dan gurih menjadi ciri khas dari pecel lele. Makanan ini sangat populer di Jawa dan dapat ditemukan di warung-warung makan hingga restoran. Pecel lele cocok dinikmati kapan saja, baik siang maupun malam hari.",
             origin = "Jawa",
             ingredients = "Ikan lele, sambal terasi, cabai rawit, kemangi, kubis, timun, tempe, tahu",
-            imageRes = R.drawable.pecellele
+            imageRes = R.drawable.pecellele,
+            calories = "380 kkal per porsi",
+            nutrition = "Protein: 28g, Lemak: 24g, Karbohidrat: 20g, Serat: 4g",
+            cookingTime = "30-40 menit",
+            difficulty = "Mudah",
+            servings = "2-3 porsi",
+            tips = "Lumuri lele dengan kunyit dan garam sebelum digoreng agar tidak amis. Goreng dengan api sedang hingga kering dan renyah."
         )
     )
 }

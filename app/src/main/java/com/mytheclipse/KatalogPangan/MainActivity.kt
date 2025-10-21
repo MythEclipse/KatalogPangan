@@ -1,5 +1,6 @@
 package com.mytheclipse.KatalogPangan
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -18,14 +19,48 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             KatalogPanganTheme {
-                KatalogPanganApp()
+                KatalogPanganApp(
+                    onShareFood = { food ->
+                        shareFood(food)
+                    }
+                )
             }
         }
+    }
+    
+    private fun shareFood(food: Food) {
+        val shareText = """
+            ${food.name}
+            
+            ${food.overview}
+            
+            Asal: ${food.origin}
+            
+            Deskripsi:
+            ${food.description}
+            
+            Bahan-bahan:
+            ${food.ingredients}
+            
+            ${if (food.calories.isNotEmpty()) "Kalori: ${food.calories}\n" else ""}${if (food.cookingTime.isNotEmpty()) "Waktu Memasak: ${food.cookingTime}\n" else ""}${if (food.difficulty.isNotEmpty()) "Tingkat Kesulitan: ${food.difficulty}\n" else ""}
+            Lihat lebih lengkap di Aplikasi Katalog Pangan Indonesia!
+        """.trimIndent()
+        
+        val sendIntent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_TEXT, shareText)
+            type = "text/plain"
+        }
+        
+        val shareIntent = Intent.createChooser(sendIntent, "Bagikan ${food.name}")
+        startActivity(shareIntent)
     }
 }
 
 @Composable
-fun KatalogPanganApp() {
+fun KatalogPanganApp(
+    onShareFood: (Food) -> Unit = {}
+) {
     var currentScreen by remember { mutableStateOf<Screen>(Screen.Main) }
     var selectedFood by remember { mutableStateOf<Food?>(null) }
 
@@ -48,6 +83,9 @@ fun KatalogPanganApp() {
                     food = food,
                     onBackClick = {
                         currentScreen = Screen.Main
+                    },
+                    onShareClick = {
+                        onShareFood(food)
                     }
                 )
             }
